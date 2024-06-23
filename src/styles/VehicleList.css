@@ -1,0 +1,49 @@
+/* VehicleList.css */
+
+.vehicle-list-container {
+    width: 80%; /* Set the container width to 80% */
+    margin: 50px auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .vehicle-list-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .vehicle-table {
+    width: 100%; /* Stretch the table width to 100% of its container */
+    border-collapse: collapse;
+  }
+  
+  .vehicle-table th,
+  .vehicle-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .vehicle-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .vehicle-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .update-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .update-link:hover {
+    color: #0056b3;
+  }
+  
