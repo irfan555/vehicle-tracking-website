@@ -44,16 +44,8 @@ Before you begin, ensure you have met the following requirements:
    REACT_APP_GOOGLE_MAPS_API_KEY=your-google-maps-api-key
    REACT_APP_BASE_URL=your-backend-cloud-function-baseurl-endpoint
    ```
-
-2. **Update the Cloud Function base URL:**
-
-   Open the `App.js` file and update the base URL for your backend API:
-
-   ```js
-   const BASE_URL = 'https://your-cloud-function-base-url';
-   ```
-
-3. **Ensure your backend APIs are deployed and accessible.**
+   
+2. **Ensure your backend APIs are deployed and accessible.**
 
 ## Running the App
 
